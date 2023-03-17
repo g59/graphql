@@ -1272,19 +1272,19 @@
     mercurius "^11.3.0"
 
 "@mercuriusjs/gateway@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@mercuriusjs/gateway/-/gateway-1.0.0.tgz#44ad7a59520a0fb0952628fcecb6c4d409b06976"
-  integrity sha512-dKaRegJ9l87e47kNpmLavs2P3tqRPknAb7daTpDi2kHqF65hkLAt1C1Jh/LZAGa4mEYEI3HfDFQCy5hWzrTgsg==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@mercuriusjs/gateway/-/gateway-1.2.0.tgz#fd89e577ed817fae4182595e70aa904bd29ef3d3"
+  integrity sha512-kwSTeY53NpO2VUaDKKl3PBUwcqQBLHzHAq2FDxCr4N2u2ELu9/yJVAcv7okkmwg7ImjsTOdgbvU2+VrG2foLHQ==
   dependencies:
     "@mercuriusjs/federation" "^1.0.0"
     "@mercuriusjs/subscription-client" "^1.0.0"
     fastify-plugin "^4.3.0"
     graphql "^16.6.0"
     graphql-ws "^5.11.2"
-    mercurius "^11.3.0"
+    mercurius "^12.0.1"
     p-map "^4.0.0"
     single-user-cache "^0.6.0"
-    tiny-lru "^8.0.1"
+    tiny-lru "^10.0.1"
     use-strict "1.0.1"
     ws "^8.11.0"
 
@@ -6991,7 +6991,7 @@ mercurius-integration-testing@8.0.0:
     cookie "^0.5.0"
     ws "^8.12.1"
 
-mercurius@12.2.0:
+mercurius@12.2.0, mercurius@^12.0.1:
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-12.2.0.tgz#ce27f4dd50037ba37cb524dc1392c2b2fb96d428"
   integrity sha512-S1/j+MSJA11A0rW/TM+31qq7PTf9EQVDtq+XJQMaebtqEP5JhhUmQnTLzCh9NhHkh7YIFH72gEY03Phr3Cs8xQ==
@@ -9501,6 +9501,11 @@ tiny-lru@^10.0.0:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-10.0.1.tgz#aaf5d22207e641ed1b176ac2e616d6cc2fc9ef66"
   integrity sha512-Vst+6kEsWvb17Zpz14sRJV/f8bUWKhqm6Dc+v08iShmIJ/WxqWytHzCTd6m88pS33rE2zpX34TRmOpAJPloNCA==
+
+tiny-lru@^10.0.1:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-10.2.1.tgz#2a7f7cd87cf82ba87f4224af681bc2b478ece722"
+  integrity sha512-cxcNyX4O50FDnB5x9jdEJupYC+9PPutt6wT16TaOtXeHfV9t41aFqg0VniB9YK5KmBeqmZaYriNMajm/5TtA7Q==
 
 tiny-lru@^8.0.1:
   version "8.0.2"
